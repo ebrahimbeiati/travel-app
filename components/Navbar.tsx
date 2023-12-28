@@ -102,6 +102,7 @@ const Navbar = () => {
             title="Login"
             variant="btn_dark_green"
             icon="/user.jpeg"
+            full
           />
         </div>
       </div>

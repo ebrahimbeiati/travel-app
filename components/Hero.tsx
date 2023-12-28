@@ -14,7 +14,7 @@ const Hero = () => {
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
 
-        <h1 className="bold-64 lg:bold-88 flex">Dream Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Dream Camp Area</h1>
 
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           The best place for your next adventure. We can help you on an
@@ -43,8 +43,13 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col w-full gap-5 sm:flex-row">
-          <Button type="button" title="Get Started" variant="btn_green" />
-          <Button type="button" title="Learn More" variant="btn_dark_green" />
+          <Button type="button" title="Get Started" variant="btn_green" full />
+          <Button
+            type="button"
+            title="Learn More"
+            variant="btn_dark_green"
+            full
+          />
         </div>
       </div>
       <div className="relative flex flex-1 items-start ">
