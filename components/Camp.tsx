@@ -10,7 +10,6 @@ interface CampProps {
 const CampSite = ({
   backgroundImage,
   title,
-  description,
   subtitle,
   peopleJoined,
 }: CampProps) => {
