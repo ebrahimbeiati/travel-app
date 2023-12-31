@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 ">
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
@@ -49,7 +49,6 @@ const Hero = () => {
           <Button
             type="button"
             title="How we work?"
-         
             variant="btn_green"
             full
           />
@@ -71,7 +70,7 @@ const Hero = () => {
               <p className="bold-18 text-white">173.28 mi</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
+              <p className="regular-14 block text-gray-20">Elevation</p>
               <p className="bold-18 text-white">2.040 km</p>
             </div>
           </div>

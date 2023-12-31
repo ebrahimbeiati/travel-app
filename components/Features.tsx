@@ -4,9 +4,9 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
-      <div className="max-container padding-container relative w-full flex justify-end">
-        <div className="flex lg:min-h-[900px]">
+    <section className="flex flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+      <div className="max-container padding-container relative w-full flex ">
+        <div className="lg:min-h-[900px]">
           <Image
             src="/phone.png"
             alt="phone"
