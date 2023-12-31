@@ -12,9 +12,8 @@ export default function Home() {
         <Camp />
         <Guide />
         <Features />
-        <GetApp/>
-        
+        <GetApp />
       </div>
     </main>
-  )
+  );
 }

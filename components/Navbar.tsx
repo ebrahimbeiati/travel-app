@@ -58,6 +58,8 @@
 // };
 
 // export default Navbar;
+
+
  "use client";
 import { useState } from "react";
 import { NAV_LINKS } from "@/constants";
@@ -141,6 +143,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 

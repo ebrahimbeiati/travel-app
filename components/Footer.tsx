@@ -73,20 +73,18 @@ const Footer = () => {
 }
 
 type FooterColumnProps = {
-  title: string
-  children: React.ReactNode
-  href: string
-  label: string
-}
+  title: string;
+  children: React.ReactNode;
+};
 
-const FooterColumn = ({ title, children }:FooterColumnProps) => {
-
+const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (
-    <div className='flex flex-col gap-5'>
-      <h3 className='bold-18 whitespace-nowrap'>{title}</h3>
+    <div className="flex flex-col gap-5">
+      <h3 className="bold-18 whitespace-nowrap">{title}</h3>
       {children}
     </div>
-  )
-}
+  );
+};
+
 
 export default Footer
