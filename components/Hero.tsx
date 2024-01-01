@@ -3,10 +3,10 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 ">
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 lg:flex-row ">
       <div className="hero-map" />
 
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="md:w-1/2 relative z-20 flex flex-col xl:w-2/3">
         <Image
           src="/camp.jpeg"
           alt="camp"
@@ -46,12 +46,7 @@ const Hero = () => {
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button type="button" title="Download App" variant="btn_green" full />
-          <Button
-            type="button"
-            title="How we work?"
-            variant="btn_green"
-            full
-          />
+          <Button type="button" title="How we work?" variant="btn_green" full />
         </div>
       </div>
 
